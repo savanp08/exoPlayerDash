@@ -8,14 +8,14 @@ xmlns:tools="http://schemas.android.com/tools">
     android:fullBackupContent="@xml/backup_rules"
     android:label="@string/app_name"
     android:supportsRtl="true"
-    android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
+
     tools:targetApi="33"
 
     >
     <activity
         android:name=".ExoPlayer"
         android:exported="true"
-        android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+        >
         <intent-filter>
             <action android:name="android.intent.action.MAIN" />
 
